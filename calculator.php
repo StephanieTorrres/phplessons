@@ -9,7 +9,7 @@
     <form>
         <input type="text" name="num1" placeholder= "Number1">
         <input type="text" name="num2" placeholder= "Number2">
-<select> name="operator">
+<select name="operator">
     <option>None</option>
     <option>Add</option>
     <option>Subtarct</option>
@@ -27,7 +27,7 @@ if (isset($_GET['submit'])) {
     $operator = $_GET['operator'];
     switch ($operator) {
         case "None":
-            echo "You need to select a method!";
+            echo "You need to select a method";
             break;
             case "Add":
                 echo $result1 + $result2;
