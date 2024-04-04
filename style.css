@@ -4,3 +4,10 @@ p {
     font-family: Arial;
     margin-top: 38vh;
 }
+*{margin: 0;padding: 0;
+box-sizing: border-box;}
+
+.header{
+    background-image: linear-gradient(to right, #de6262, #ffb88c);
+}
+.nav-link{color: white!important;}
